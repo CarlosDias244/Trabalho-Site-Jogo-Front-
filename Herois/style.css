@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Luckiest+Guy&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
-body { margin: 0; padding: 0; }
-ul { list-style: none; }
-a { text-decoration: none; }
-.container {
-    width: 100%;
-    height: 100vh;
+body {
     background-size: cover;
     background-position: center;
     background-color: #0549a1;
@@ -13,6 +8,15 @@ a { text-decoration: none; }
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0; }
+
+
+ul { list-style: none; }
+a { text-decoration: none; }
+.container {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +74,7 @@ a { text-decoration: none; }
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     background-color: #0549a1;
@@ -135,14 +139,6 @@ a { text-decoration: none; }
 
 body {
     font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url(bloonsimagebackground.png);
-    background-size: cover;
-    background-position: center;
-    background-color: #ffffff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.534);
     color: #e4fff5;
@@ -150,7 +146,6 @@ body {
 }
 
 header {
-    background-color: rgba(93, 209, 255, 0.603);
     padding: 20px;
     text-align: center;
     color: white;
@@ -211,33 +206,12 @@ section h2 {
     padding-bottom: 5px
 }
 
-section .card-mapa h2{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.534);
-    font-size: 0.9rem;
-    color: #ffffff;
-    margin-bottom: 15px;
-    border-bottom: unset;
-    padding-bottom: 5px;
-}
-
 .card {
     background: color #ffffff;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
-}
-
-.card-mapa {
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    background-image: url(/MonkeyMeadow_No_UI.jpg);
-    background-size: cover;
-    width: 150px;
-    height: 150px;
 }
 
 .card h3 {
